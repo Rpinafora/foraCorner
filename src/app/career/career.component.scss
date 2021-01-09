@@ -1,0 +1,15 @@
+@import "../../styles.scss" ;
+
+
+#Career{ background-color: #201E1E; color: $white;
+    .container{max-width: 1100px; margin:auto;
+        h4{color:$orange; text-transform: uppercase;}
+        #carousel-example{
+        .carousel-content {
+            color:black;
+            display:flex;
+            align-items:center;
+        }
+    }
+}
+}

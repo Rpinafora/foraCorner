@@ -1,0 +1,70 @@
+@import "../../styles.scss" ;
+
+
+#Skills{ background-color: #201E1E; color: $white;
+    .container{max-width: 1100px; margin:auto;
+    
+    h4{color:$orange; text-transform: uppercase;}
+    ul{
+        li{
+            color: $white;
+            a{text-decoration: none; color: $white; cursor: pointer;}
+        }
+    }
+    .active{color:$blue !important;animation: fadeIn ease 1s;
+        -webkit-animation: fadeIn ease 1s;
+        -moz-animation: fadeIn ease 1s;
+        -o-animation: fadeIn ease 1s;
+        -ms-animation: fadeIn ease 1s;
+        
+        &::before{content: '{ ';}
+        &::after{content: ' }';}
+    }
+    .horizontal-separator{margin: 0; padding-top: 1rem; padding-bottom: 1rem; border: 0; border-top: 1px solid $white; max-width: 704px ; margin: auto;;
+    }
+    .skill-detail-headers{.subtitle{font-size:20px;}}
+    .skill-detail{
+        
+        ul{
+            li{
+                color:$blue !important;animation: fadeIn ease 2s;
+                -webkit-animation: fadeIn ease 2s;
+                -moz-animation: fadeIn ease 2s;
+                -o-animation: fadeIn ease 2s;
+                -ms-animation: fadeIn ease 2s;
+            
+            &::before{content: '{ ';}
+            &::after{content: ' }';}
+               
+            }
+        }
+    
+    }
+}
+}
+
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }

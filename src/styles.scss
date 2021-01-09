@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$blue: #6BBEE2;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #B5784B;
+$yellow: #ffc107;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
+
+$title: darken($blue, 33%);
+$subtitle: darken($indigo, 33%);
+$primary: $blue;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-800;
+
+
+// Options
+$enable-caret: true;
+$enable-rounded: false;
+$enable-shadows: false;
+$enable-gradients: true;
+$enable-transitions: true;
+$enable-hover-media-query: true;
+$enable-grid-classes: true;
+$enable-print-styles: false;
+
+
+// Body
+$body-bg: $white;
+$body-color: $gray-900;
+
+
+// Paragraphs
+$paragraph-margin-bottom: 0.5rem;
+
+
+// Grid breakpoints
+//$grid-breakpoints: ( xs: $breakpoint-xs, sm: $breakpoint-sm, md: $breakpoint-md, lg: $breakpoint-lg, xl: $breakpoint-xl );
+
+
+// Grid containers
+//$container-max-widths: ( sm: $container-sm, md: $container-md, lg: $container-lg, xl: $container-xl );
+
+
+// Fonts
+$font-family-base: 'Source Sans Pro', sans-serif;
+$font-family-title: 'Montserrat', sans-serif;
+$font-size-base: 16px;
+
+$h1-font-size: 72px;
+$h2-font-size: 64px;
+$h3-font-size: 44px;
+$h4-font-size: 36px;
+$h5-font-size: 32px;
+$h6-font-size: 30px;
+
+$headings-margin-bottom: 0.5rem;
+$headings-font-family: $font-family-title;
+$headings-font-weight: 500;
+$headings-line-height: 1.2;
+$headings-color: $title;
+
+
+// Buttons
+$input-btn-padding-y: .375rem;
+$input-btn-padding-x: .75rem;
+
+html{scroll-behavior: smooth;}
+body{ margin:0px; font-family: $font-family-title;
+    h1{font-size: $h1-font-size !important;}
+    h2{font-size: $h2-font-size !important}
+    h3{font-size: $h2-font-size !important}
+    h4{font-size: $h4-font-size !important}
+    h5{font-size: $h5-font-size !important}
+    h6{font-size: $h6-font-size !important}
+
+
+
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
